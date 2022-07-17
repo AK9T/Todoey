@@ -34,7 +34,7 @@ class TodoListViewController: UITableViewController {
 
         
         
-        
+        debugPrint("mew")
         
         if let items = defaults.array(forKey: "TodoListArray") as? [Item]
        {
